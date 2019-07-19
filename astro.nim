@@ -139,7 +139,7 @@
 ## 
 
 import times, math, options
-import typeinfo
+
 type 
   Latitude* = range[-90.0..90.0] ## Represents the geographical latitude in degrees.
   Longitude* = range[-180.0..180.0] ## Represents the geographical longitude in degrees.
