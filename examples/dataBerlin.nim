@@ -1,4 +1,4 @@
-import astro, times
+import sun_moon, times
 
 let
   latBE = Latitude(52.49)
