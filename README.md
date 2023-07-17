@@ -6,7 +6,7 @@ For the sun calculations, the formulas are identical to those used in suncalc.js
 
 ## Installation
 
-This module can be installed by `nimble install astro`. The documentation is astro.html, a unittest is located in tests (run with nimble test in that directory). Some examples are located the the examples folder.
+This module can be installed by `nimble install sun_moon`. The documentation is astro.html, a unittest is located in tests (run with nimble test in that directory). Some examples are located the the examples folder.
 
 ## Usage
 
