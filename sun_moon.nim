@@ -24,7 +24,7 @@
 ##
 ## .. code-block:: nim
 ##
-##   import astro, times
+##   import sunmoon, times
 ##   
 ##   let
 ##   # Berlin
@@ -60,7 +60,7 @@
 ##
 ## .. code-block:: nim
 ##
-##   import astro, times
+##   import sunmoon, times
 ##   
 ##   proc newTimezone(tzName: string, offset: int): Timezone {.raises: [].} =
 ##     proc zoneInfoFromAdjTime(adjTime: Time): ZonedTime {.locks: 0.} =
