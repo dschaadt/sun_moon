@@ -1,4 +1,4 @@
-import astro, times, options, unittest
+import sun_moon, times, options, unittest
 
 abortOnError = false
 
