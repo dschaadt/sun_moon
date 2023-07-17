@@ -15,7 +15,7 @@ This module can be installed by `nimble install astro`. The documentation is ast
 The following code calculates data for sun and moon in Berlin on March 13th, 2025 at 14:30 local time. Since no timezone is specified, the code assumes that you are in the timezone of Berlin. All location results are in degree, all time results are Option(DateTime) since there is sometimes no sunrise etc. for certain locations.
 
 ~~~~
-import astro, times
+import sun_moon, times
 
 let
 # Berlin
@@ -49,7 +49,7 @@ astroDawn: (val: 2025-03-13T04:32:11+01:00, has: true), astroDusk: (val: 2025-03
 ### Calculating data for a location outside the local timezone
 
 ~~~~
-import astro, times
+import sun_moon, times
 
 proc newTimezone(tzName: string, offset: int): Timezone {.raises: [].} =
     proc zoneInfoFromAdjTime(adjTime: Time): ZonedTime {.locks: 0.} =
