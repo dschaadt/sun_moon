@@ -1,4 +1,4 @@
-# Astro
+# sun_moon
 
 This module provides functions for the calculation of the position of the sun, sunrise, sunset, civil, nautical and astronomical dawn and dusk, as well as the position of the moon, moonrise and moonset for a given time (including timezone) an location through latitude and longitude.
 
